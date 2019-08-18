@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/guihardbastien/node-svm-smo/issues"
   },
+  "engines": {
+    "node": ">=4.2.4"
+  },
   "homepage": "https://github.com/guihardbastien/node-svm-smo#readme"
 }
