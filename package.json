@@ -1,0 +1,22 @@
+{
+  "name": "node-svm-smo",
+  "version": "0.1.0",
+  "description": "Support Vector Machine implementing Sequential Minimal Optimisation algorithm for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guihardbastien/node-svm-smo.git"
+  },
+  "keywords": [
+    "svm"
+  ],
+  "author": "basthard <bastien_guihard@orange.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guihardbastien/node-svm-smo/issues"
+  },
+  "homepage": "https://github.com/guihardbastien/node-svm-smo#readme"
+}
