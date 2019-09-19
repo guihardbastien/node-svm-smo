@@ -1,7 +1,6 @@
-import {randomFloat} from "./Random";
+import { randomFloat } from './Random';
 
 class GenerateData {
-
     //format: [[x1,x2],...,[x1,x2]]
     _data = [];
     //format: [1,-1,...,1]
@@ -17,7 +16,6 @@ class GenerateData {
 
     generate() {
         switch (this._shape) {
-
             case 'CIRCULAR':
                 this.generateCircularData(this._total);
                 break;
@@ -27,12 +25,11 @@ class GenerateData {
                 break;
 
             default:
-                return "ILLEGAL SHAPE";
+                return 'ILLEGAL SHAPE';
         }
     }
 
     generateCircularData(total) {
-
         //circle radius
         let circle_r = 10;
         //coordinates of the center of the circle
@@ -58,9 +55,7 @@ class GenerateData {
     }
 
     generateLinearData(total) {
-
         for (let i = 0; i < total; i++) {
-
             let positive_x1 = randomFloat(0, 100);
             let positive_x2 = randomFloat(positive_x1, 100);
             this.updateData(positive_x1, positive_x2, -1);
@@ -68,7 +63,6 @@ class GenerateData {
             let negative_x1 = randomFloat(0, 100);
             let negative_x2 = randomFloat(0, negative_x1);
             this.updateData(negative_x1, negative_x2, 1);
-
         }
     }
 
@@ -87,4 +81,3 @@ class GenerateData {
 }
 
 export default GenerateData;
-
