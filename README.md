@@ -16,7 +16,7 @@ import the module : `import SVM from "node-svm-smo";`
 
 ### Example
 
-```
+```js
 import SVM from "node-svm-smo";
 
 const data = [
